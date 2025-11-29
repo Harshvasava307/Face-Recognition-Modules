@@ -137,3 +137,15 @@ Add multiple faces and logging
 Optimize speed (MediaPipe recommended)
 
 Optional: Multi-camera support, web interface, email alerts
+
+Project File Structure
+face_recognition_app/
+│
+├── main.py                # Main program to launch GUI & camera
+├── camera_module.py       # Handles camera input & face detection
+├── face_recognition_module.py  # Handles face recognition & embedding
+├── database_module.py     # Handles database storage & retrieval
+├── gui_module.py          # GUI using Tkinter / PyQt
+├── logger_module.py       # Logging recognized faces
+├── requirements.txt       # List of all Python dependencies
+└── faces_database/        # Folder to store known face images (optional)
