@@ -57,6 +57,12 @@ class FaceRecognitionModule:
         except Exception as e:
             print("Error saving face:", e)
 
+# authenticantion space
+
+
+
+
+
 
 # ------------------- Dynamic Folder Import -------------------
 if __name__ == "__main__":
